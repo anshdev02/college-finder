@@ -1,0 +1,16 @@
+[
+  {"name":"IIT Delhi","city":"Delhi","course":"B.Tech","fee":200000,"rating":4.8},
+  {"name":"IIT Bombay","city":"Mumbai","course":"B.Tech","fee":220000,"rating":4.9},
+  {"name":"IIT Madras","city":"Chennai","course":"B.Tech","fee":210000,"rating":4.9},
+  {"name":"NIT Trichy","city":"Tamil Nadu","course":"B.Tech","fee":150000,"rating":4.7},
+  {"name":"NIT Surathkal","city":"Karnataka","course":"B.Tech","fee":140000,"rating":4.6},
+  {"name":"BITS Pilani","city":"Rajasthan","course":"B.Tech","fee":300000,"rating":4.7},
+  {"name":"VIT Vellore","city":"Tamil Nadu","course":"B.Tech","fee":180000,"rating":4.5},
+  {"name":"SRM University","city":"Chennai","course":"MBA","fee":220000,"rating":4.3},
+  {"name":"Manipal University","city":"Karnataka","course":"B.Tech","fee":250000,"rating":4.4},
+  {"name":"Amity University","city":"Noida","course":"MBA","fee":260000,"rating":4.2},
+  {"name":"Jadavpur University","city":"Kolkata","course":"B.Tech","fee":50000,"rating":4.6},
+  {"name":"Anna University","city":"Chennai","course":"B.Tech","fee":60000,"rating":4.5},
+  {"name":"Osmania University","city":"Hyderabad","course":"MBA","fee":70000,"rating":4.3},
+  {"name":"Delhi University","city":"Delhi","course":"BBA","fee":40000,"rating":4.4}
+]

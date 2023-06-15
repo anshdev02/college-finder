@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AICTE College Finder</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome for search icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+  <h1>AICTE College Finder</h1>
+</header>
+
+<section class="filters">
+
+  <div class="search-box">
+    <i class="fa fa-search"></i>
+    <input type="text" id="search" placeholder="Search college...">
+  </div>
+
+  <select id="cityFilter">
+    <option value="">All Locations</option>
+  </select>
+
+  <select id="courseFilter">
+    <option value="">All Courses</option>
+  </select>
+
+  <input type="number" id="maxFee" placeholder="Max Fee">
+
+</section>
+
+<section id="collegeList"></section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
