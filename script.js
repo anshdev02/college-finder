@@ -72,6 +72,16 @@ function applyFilters() {
   const course = document.getElementById("courseFilter").value;
   const maxFee = document.getElementById("maxFee").value;
 
+  const sort = document.getElementById("sortFilter").value;
+
+  if (sort === "rating") {
+    filtered.sort((a, b) => b.rating - a.rating);
+  }
+
+  if (sort === "fee") {
+    filtered.sort((a, b) => a.fee - b.fee);
+  }
+
   let filtered = colleges.filter(c => {
     return (
       (!search || c.name.toLowerCase().includes(search)) &&
@@ -85,6 +95,7 @@ function applyFilters() {
 }
 
 document.getElementById("search").addEventListener("input", applyFilters);
+document.getElementById("sortFilter").addEventListener("change", applyFilters);
 document.getElementById("cityFilter").addEventListener("change", applyFilters);
 document.getElementById("courseFilter").addEventListener("change", applyFilters);
 document.getElementById("maxFee").addEventListener("input", applyFilters);
